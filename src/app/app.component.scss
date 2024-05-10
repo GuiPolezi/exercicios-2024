@@ -110,28 +110,44 @@ button {
   border-radius: 30px;
 }
 
-.titulo {
-  background-color: red;
-}
-
-.titulo div{
+.container {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
 }
 
-.titulo div .botoes {
-  margin-right: 70px;
-  align-items: center;
-  gap: 20px;
+.container .titulo {
+  width: 55%;
+  color: #ED7839;
+  font-family: "Roboto", sans-serif;
+  margin-left: 50px;
 }
 
-.titulo div .botoes button {
+.button {
+  margin-top: 10px;
+  display: flex;
+  margin-bottom: 30px;
+  gap: 10px;
+}
+
+.container-button .button button {
+  background: #ED7839;
+  color: white;
+  border: none;
+  border-radius: 4px;
   text-align: center;
 }
 
-.titulo h1 {
-  color: #ED7839;
-  width: 55%;
-  margin-left: 50px;
-  margin-top: 20px;
+.container-button {
+  text-align: center;
+  align-items: center;
+  margin-right: 70px;
 }
+
+.container-button p {
+  color: #ED7839;
+  font-weight: 500;
+}
+
+
+
