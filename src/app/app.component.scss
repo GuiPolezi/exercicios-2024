@@ -78,8 +78,18 @@
   font-family: "Roboto", sans-serif;
 }
 
-.main header .botao {
+button {
+  display: flex;
   align-items: center;
+  width: 110px;
+  padding: 10px;
+  height: 34px;
+  text-align: center;
+  gap: 5px;
+  background: none;
+  font-size: 14px;
+  border: 1px solid #CCCCCC;
+  cursor: pointer;
 }
 
 
