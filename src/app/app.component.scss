@@ -60,3 +60,29 @@
   margin-left: 300px;
   overflow: hidden;
 }
+
+.main header {
+  display: flex;
+  justify-content: space-between;
+  background-color: red;
+  margin: 0;
+  height: 68px;
+}
+
+
+
+.main header .login {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.main header .login .image-logo {
+  width: 100px;
+}
+
+.image-logo svg {
+  width: 48px;
+  height: 50px;
+  border-radius: 30px;
+}
