@@ -204,3 +204,26 @@ button {
   margin-top: 50px;
 }
 
+.content2 .imagem .autora{
+  display: flex;
+  border: none;
+  margin-top: 350px;
+  margin-left: 100px;
+  align-items: center;
+  width: 90%;
+  text-align: start;
+  gap: 20px;
+}
+
+.content2 .imagem .autora .nomes {
+  border: none;
+  font-size: 60px;
+  width: 100%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+}
+
+.autora svg {
+  border-radius: 40px;
+  border: 2px solid;
+}
