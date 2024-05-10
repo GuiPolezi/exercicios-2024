@@ -19,10 +19,11 @@
 
 .sidemenu div h1 {
   background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
-  font-size: 30px;
+  font-size: 40px;
   padding: 20px;
   color: white;
   font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 
 .sidemenu svg {
@@ -53,4 +54,9 @@
 .sidemenu .trab svg {
   width: 10px;
   height: 55px;
+}
+
+.main {
+  margin-left: 300px;
+  overflow: hidden;
 }
