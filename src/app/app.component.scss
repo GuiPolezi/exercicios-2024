@@ -64,17 +64,30 @@
 .main header {
   display: flex;
   justify-content: space-between;
-  background-color: red;
-  margin: 0;
+  background: #FDF1EB;
   height: 68px;
+  align-items: center;
+  padding: 10px;
 }
 
+.main header .frases {
+  width: 60%;
+  font-size: 20px;
+  margin-left: 40px;
+  color: #725C5C;
+  font-family: "Roboto", sans-serif;
+}
+
+.main header .botao {
+  align-items: center;
+}
 
 
 .main header .login {
   display: flex;
   gap: 20px;
   align-items: center;
+  font-family: "Quicksand", sans-serif;
 }
 
 .main header .login .image-logo {
