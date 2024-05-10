@@ -67,12 +67,12 @@
   background: #FDF1EB;
   height: 68px;
   align-items: center;
-  padding: 10px;
+  padding: 15px;
 }
 
 .main header .frases {
   width: 60%;
-  font-size: 20px;
+  font-size: 16px;
   margin-left: 40px;
   color: #725C5C;
   font-family: "Roboto", sans-serif;
@@ -108,4 +108,26 @@ button {
   width: 48px;
   height: 50px;
   border-radius: 30px;
+}
+
+.titulo {
+  background-color: red;
+}
+
+.titulo div{
+  display: flex;
+}
+
+.titulo div .botoes {
+  margin-left: 330px;
+  align-items: center;
+  background-color: black;
+  gap: 20px;
+}
+
+.titulo h1 {
+  color: #ED7839;
+  width: 55%;
+  margin-left: 50px;
+  margin-top: 20px;
 }
