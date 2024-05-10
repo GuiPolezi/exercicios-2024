@@ -116,13 +116,17 @@ button {
 
 .titulo div{
   display: flex;
+  justify-content: space-between;
 }
 
 .titulo div .botoes {
-  margin-left: 330px;
+  margin-right: 70px;
   align-items: center;
-  background-color: black;
   gap: 20px;
+}
+
+.titulo div .botoes button {
+  text-align: center;
 }
 
 .titulo h1 {
