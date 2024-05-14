@@ -412,3 +412,55 @@ button {
   text-align: justify;
   color: #4D4D4D;
 }
+
+.background {
+  position: relative;
+  margin-top: 30px;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  border: 1px solid #E7E7E7;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 4px;
+  background-color: #E7E7E7;
+}
+
+.background:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #7e7977d7;
+  filter: blur(5px);
+  z-index:0;
+}
+
+.background span{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: center;
+  position: absolute;
+  z-index: 1;
+  top: 10px;
+  width: 95%;
+  text-align: center;
+  font-size: 24px;
+}
+
+
+
+.card-hidden p {
+  font-size: 18px;
+  text-align: start;
+  padding: 2px;
+}
+
+.card-hidden .icons {
+  display: flex;
+  padding: 2px;
+  gap: 10px;
+  align-items: center;
+}
