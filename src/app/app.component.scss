@@ -261,3 +261,22 @@ button {
   background: none;
 
 }
+
+.discussoes {
+  border: 1px solid #ECECEC;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 50px;
+}
+
+
+.discussoes h6 {
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: #4E4E4E;
+    background-color: #FDF1EB;
+    border: 1px solid #ECECEC;
+    border-radius: 3px, 3px, 0px, 0px;
+    padding: 10px;
+}
