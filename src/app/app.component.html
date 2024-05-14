@@ -189,12 +189,12 @@
         <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
         <form (submit)="submitTopic($event)">
           <label for="Assunto">Assunto</label>
-          <input type="text" name="" id="" placeholder="Defina um tópico sucinto para notificar os autores..." required>
+          <input class="subject" type="text" name="" id="" placeholder="Defina um tópico sucinto para notificar os autores..." required>
 
           <label for="Mensagem">Conteúdo</label>
-          <input type="tel" required style="height: 100px;">
+          <input type="textarea" required style="height: 100px;">
           <div>
-            <button>Enviar</button>
+            <button >Enviar</button>
           </div>
         </form>
       </div>
@@ -245,7 +245,7 @@
         <p style="color: #595959;">Agradecemos por sua contribuição, uma notificação será enviada ao seu email assim que seu tópico for respondido!</p>
         <p><a href="#" style="color: #ED7839;">Descubra outros trabalhos!</a></p>
         <div class="divisoria">
-          <button class="btn-create-topic" (click)="topicForm()">
+          <button class="btn-create-new-topic">
              CRIAR NOVO TÓPICO</button>
             
         </div>
@@ -445,5 +445,6 @@
         
     </footer>
   </main>
+  
 </body>
 </html>
