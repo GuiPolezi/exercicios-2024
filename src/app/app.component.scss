@@ -280,3 +280,21 @@ button {
     border-radius: 3px, 3px, 0px, 0px;
     padding: 10px;
 }
+
+.discussoes p {
+  font-family: "Quicksand", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  padding: 20px;
+}
+
+.discussoes .box {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.discussoes #divisoria {
+  width: 100%;
+}
