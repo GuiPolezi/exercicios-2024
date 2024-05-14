@@ -9,6 +9,12 @@ export class AppComponent {
   title = 'DevChuva';
   showMoreText = false;
   buttonText = 'Ver Mais';
+  showForm = false;
+
+
+  topicForm() {
+    this.showForm = !this.showForm;
+  }
 
   btnShowMore() {
     this.showMoreText = !this.showMoreText;

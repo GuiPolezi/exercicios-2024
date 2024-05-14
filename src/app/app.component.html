@@ -185,6 +185,18 @@
 
     <div class="discussoes">
       <h6>Discussões</h6>
+      <div class="form">
+        <p>Tem uma dúvida ou sugestão? Compartilhe seu feedback com os autores!</p>
+        <form>
+          <label for="Assunto">Assunto</label>
+          <input type="text" name="" id="" placeholder="Defina um tópico sucinto para notificar os autores..." required>
+
+          <label for="Mensagem">Conteúdo</label>
+          <input type="tel" required>
+          <button>Enviar</button>
+        </form>
+      </div>
+      
       <p style="color: #ED7839; font-weight: 700;">Compartilhe suas ideias ou dúvidas com os autores!</p>
       <div class="box">
         <svg width="51" height="49" viewBox="0 0 51 49" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -216,11 +228,12 @@
       <p>Sabia que o maior estímulo no desenvolvimento científico e cultural é a curiosidade? Deixe seus questionamentos ou sugestões para o autor!</p>
 
       <div class="divisoria">
-          <button class="btn-create-topic"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <button class="btn-create-topic" (click)="topicForm"><svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
             <rect y="10" width="3" height="17" rx="1" transform="rotate(-90 0 10)" fill="white"/>
             <rect x="7" width="3" height="17" rx="1" fill="white"/>
             </svg>
              CRIAR TÓPICO</button>
+            
       </div>
 
       <div class="aleatorio">
