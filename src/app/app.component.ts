@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'DevChuva';
+  showMoreText = false;
+  buttonText = 'Ver Mais';
+
+  btnShowMore() {
+    this.showMoreText = !this.showMoreText;
+    this.buttonText = this.showMoreText ? 'Ver Menos': 'Ver Mais';
+  }
+  
 }
+
+

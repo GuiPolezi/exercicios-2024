@@ -252,8 +252,11 @@ button {
   color: #5C5C5C;
 }
 
-.resumo a {
+.resumo strong {
   color: #ED7839;
-  text-decoration: none;
+  border: none;
   font-family: "Quicksand", sans-serif;
+  font-size: 18px;
+  background: none;
+
 }
