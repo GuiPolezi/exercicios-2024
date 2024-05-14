@@ -13,10 +13,9 @@ export class AppComponent {
   topicSubmit = false;
 
 
-  submitT() {
-    setTimeout(() => {
-      this.topicSubmit = true;
-    }, 2000);
+  submitTopic(event: Event) {
+    event.preventDefault();
+    this.topicSubmit = true;
   }
 
   topicForm() {
