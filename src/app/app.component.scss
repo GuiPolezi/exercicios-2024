@@ -295,10 +295,27 @@ button {
   padding: 20px;
 }
 
-.discussoes #divisoria {
-  width: 100%;
+.discussoes .divisoria{
+  margin-top: 20px;
+  height: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNyIgaGVpZ2h0PSIyIiB2aWV3Qm94PSIwIDAgMTAyNyAyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAxSDEwMjciIHN0cm9rZT0iI0U3RTdFNyIvPgo8L3N2Zz4=');
 }
 
-.discussoes button {
-  position: absolute;
+.discussoes .divisoria button {
+  padding: 25px;
+  width: 210px;
+  gap: 10px;
+  font-size: 18px;
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  color: white;
+  margin: auto;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0px 2px 2px 0px #0000003D;
+  box-shadow: 0px 0px 2px 0px #0000001F;
+  text-align: center;
+
+  
 }
