@@ -367,6 +367,31 @@ button {
   width: 240px;
 }
 
+.discussoes .card {
+  margin-top: 30px;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  border: 1px solid #E7E7E7;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.discussoes .card p {
+  font-size: 18px;
+  text-align: start;
+  padding: 2px;
+}
+
+.discussoes .card .icons {
+  display: flex;
+  padding: 2px;
+  gap: 10px;
+  align-items: center;
+}
+
+
+
 .discussoes .answered-topic {
   margin-top: 30px;
   box-shadow: 0px 0px 8px 0px #0000001F;
