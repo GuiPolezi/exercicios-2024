@@ -301,6 +301,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   background-image: url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAyNyIgaGVpZ2h0PSIyIiB2aWV3Qm94PSIwIDAgMTAyNyAyIiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8cGF0aCBkPSJNMCAxSDEwMjciIHN0cm9rZT0iI0U3RTdFNyIvPgo8L3N2Zz4=');
+  background-size: 90%;
 }
 
 .discussoes .divisoria button {
@@ -364,4 +365,50 @@ button {
 
 .discussoes .agradecimento button {
   width: 240px;
+}
+
+.discussoes .card {
+  margin-top: 30px;
+  box-shadow: 0px 0px 8px 0px #0000001F;
+  border: 1px solid #E7E7E7;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.discussoes .card p {
+  font-size: 18px;
+  text-align: start;
+  padding: 2px;
+}
+
+.discussoes .card .icons {
+  display: flex;
+  padding: 2px;
+  gap: 10px;
+  align-items: center;
+}
+
+.discussoes .card-reply {
+  background-color: #F8F8F8;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.discussoes .card-reply div {
+  display: flex;
+  justify-content: space-between;
+  font-size: 16px;
+}
+
+.card-reply div div {
+  align-items: center;
+}
+
+.card-reply p {
+  text-align: justify;
+  color: #4D4D4D;
 }

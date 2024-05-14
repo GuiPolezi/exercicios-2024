@@ -11,7 +11,12 @@ export class AppComponent {
   buttonText = 'Ver Mais';
   showForm = false;
   topicSubmit = false;
+  showReplys = false;
 
+
+  cardShowReplys() {
+    this.showReplys = !this.showReplys;
+  }
 
   submitTopic(event: Event) {
     event.preventDefault();
