@@ -318,6 +318,41 @@ button {
   text-align: center;
 }
 
-.discussoes .form {
-  background-color: red;
+.discussoes form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  font-size: 20px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.75px;
+  text-align: left;
+}
+
+.discussoes form label {
+  color: #ED7839;
+  padding-bottom: 5px;
+  margin-top: 5px;
+}
+
+.discussoes form input {
+  padding: 5px;
+  height: 30px;
+  margin-bottom: 5px;
+}
+
+.discussoes form div {
+  background-color: #EAF1F2;
+  justify-content: center;
+  width: 100%;
+}
+
+.discussoes form button {
+  background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+  color: white;
+  width: 250px;
+  padding: 20px;
+  justify-content: center;
+  margin-left: 85%;
 }
