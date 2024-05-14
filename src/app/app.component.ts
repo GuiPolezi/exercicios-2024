@@ -10,7 +10,14 @@ export class AppComponent {
   showMoreText = false;
   buttonText = 'Ver Mais';
   showForm = false;
+  topicSubmit = false;
 
+
+  submitT() {
+    setTimeout(() => {
+      this.topicSubmit = true;
+    }, 2000);
+  }
 
   topicForm() {
     this.showForm = !this.showForm;
